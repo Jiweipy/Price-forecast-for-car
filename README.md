@@ -138,6 +138,35 @@
   	- 若验证集达到最低 => 拟合适中
   	- 若训练集误差率较低，而验证集误差率达到最低点时升高 => 过拟合
   	- <img src="/Users/qinjw/Library/Application Support/typora-user-images/image-20200327184627546.png" alt="image-20200327184627546" style="zoom:50%;" />
+    
+# Task5 数据分析：模型融合
+
+## 概念：把强分类器进行强强联合，变得更强
+
+## 模型融合包括
+  - 投票法(Voting)
+  - 线性混合(Linear Blending)
+  - Stacking
+  
+## 对于分类任务来说，可以使用投票的方法
+  - 简单投票法
+  - 加权投票
+  
+ ## 对于回归任务来说，采用的为平均法(Average)
+  - 简单平均
+  - 加权平均
+  
+ ## 线性混合 Linear Blending
+  - 相交LB来说更简单
+  
+ ## Stacking
+  - 相比Linear Blending来说，更加强大，然而也更容易**过拟合**（采用K折交叉验证法求解）
+  
+ 
+
+  
+
+
 
 
 
